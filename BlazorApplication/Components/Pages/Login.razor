@@ -1,0 +1,82 @@
+﻿@* <!-- Views/LoginView.razor -->
+@page "/login"
+@using BlazorApplication.ViewModel
+@inject LoginViewModel ViewModel
+
+
+<h3>Login</h3>
+
+<div>
+    <label>Username:</label>
+    <input @bind="ViewModel.LoginData.PhoneNumber" />
+</div>
+<div>
+    <label>Password:</label>
+    <input type="password" @bind="ViewModel.LoginData.Password" />
+</div>
+
+<button @onclick="ViewModel.LoginAsync">Login</button>
+
+<p>@ViewModel.StatusMessage</p> *@
+
+<!-- LoginView.razor -->
+@page "/"
+@using BlazorApplication.ViewModel
+@inject LoginViewModel ViewModel
+@rendermode InteractiveServer
+
+@if (!showForgotPasswordForm)
+{
+    <h3>Login</h3>
+
+    <!-- Login Form -->
+
+    <div>
+        <label>PhoneNumber:</label>
+        <input @bind="ViewModel.LoginData.PhoneNumber" />
+    </div>
+    <div>
+        <label>Password:</label>
+        <input type="password" @bind="ViewModel.LoginData.Password" />
+    </div>
+
+    <button @onclick="ViewModel.LoginAsync">Login</button>
+
+    <p>@ViewModel.StatusMessage</p>
+
+    <!-- Forgot Password Link -->
+    <a @onclick="ToggleForgotPasswordForm">Forgot Password?</a>
+}
+
+@if (showForgotPasswordForm)
+{
+    <div class="forgot-password-section">
+        <h4>Forgot Password</h4>
+
+        <div>
+            <label>PhoneNumber:</label>
+            <input @bind="ViewModel.SignupData.PhoneNumber" />
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="password" @bind="ViewModel.SignupData.Password" />
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="password" @bind="ViewModel.SignupData.ConfirmPassword"/>
+        </div>
+
+        <button @onclick="ViewModel.RequestPasswordResetAsync">Reset</button>
+
+        <p>@ViewModel.StatusMessage</p>
+    </div>
+}
+
+@code {
+    private bool showForgotPasswordForm = false;
+
+    private void ToggleForgotPasswordForm()
+    {
+        showForgotPasswordForm = !showForgotPasswordForm;
+    }
+}

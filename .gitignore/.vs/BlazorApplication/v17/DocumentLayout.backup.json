@@ -1,0 +1,265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|c:\\users\\kugow\\source\\repos\\blazorapplication\\blazorapplication\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|solutionrelative:blazorapplication\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|c:\\users\\kugow\\source\\repos\\blazorapplication\\blazorapplication\\components\\pages\\signup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|solutionrelative:blazorapplication\\components\\pages\\signup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|c:\\users\\kugow\\source\\repos\\blazorapplication\\blazorapplication\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|solutionrelative:blazorapplication\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|c:\\users\\kugow\\source\\repos\\blazorapplication\\blazorapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|solutionrelative:blazorapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|c:\\users\\kugow\\source\\repos\\blazorapplication\\blazorapplication\\repository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|solutionrelative:blazorapplication\\repository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|c:\\users\\kugow\\source\\repos\\blazorapplication\\blazorapplication\\repository\\interfaces\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|solutionrelative:blazorapplication\\repository\\interfaces\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|c:\\users\\kugow\\source\\repos\\blazorapplication\\blazorapplication\\services\\interfaces\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|solutionrelative:blazorapplication\\services\\interfaces\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|c:\\users\\kugow\\source\\repos\\blazorapplication\\blazorapplication\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|solutionrelative:blazorapplication\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|c:\\users\\kugow\\source\\repos\\blazorapplication\\blazorapplication\\viewmodel\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|solutionrelative:blazorapplication\\viewmodel\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|c:\\users\\kugow\\source\\repos\\blazorapplication\\blazorapplication\\model\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|solutionrelative:blazorapplication\\model\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|c:\\users\\kugow\\source\\repos\\blazorapplication\\blazorapplication\\repository\\signuprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|solutionrelative:blazorapplication\\repository\\signuprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|c:\\users\\kugow\\source\\repos\\blazorapplication\\blazorapplication\\services\\signupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|solutionrelative:blazorapplication\\services\\signupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|c:\\users\\kugow\\source\\repos\\blazorapplication\\blazorapplication\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|solutionrelative:blazorapplication\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|c:\\users\\kugow\\source\\repos\\blazorapplication\\blazorapplication\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F9FBC57-897D-4AC2-A480-B77D9D79C581}|BlazorApplication\\BlazorApplication.csproj|solutionrelative:blazorapplication\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SignUpViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\ViewModel\\SignUpViewModel.cs",
+              "RelativeDocumentMoniker": "BlazorApplication\\ViewModel\\SignUpViewModel.cs",
+              "ToolTip": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\ViewModel\\SignUpViewModel.cs",
+              "RelativeToolTip": "BlazorApplication\\ViewModel\\SignUpViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T04:57:28.474Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Program.cs",
+              "RelativeToolTip": "BlazorApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T07:01:41.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ILoginRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Repository\\Interfaces\\ILoginRepository.cs",
+              "RelativeDocumentMoniker": "BlazorApplication\\Repository\\Interfaces\\ILoginRepository.cs",
+              "ToolTip": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Repository\\Interfaces\\ILoginRepository.cs",
+              "RelativeToolTip": "BlazorApplication\\Repository\\Interfaces\\ILoginRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:52:33.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "BlazorApplication\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "BlazorApplication\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T06:48:41.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SignUpRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Repository\\SignUpRepository.cs",
+              "RelativeDocumentMoniker": "BlazorApplication\\Repository\\SignUpRepository.cs",
+              "ToolTip": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Repository\\SignUpRepository.cs",
+              "RelativeToolTip": "BlazorApplication\\Repository\\SignUpRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:45:33.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Repository\\LoginRepository.cs",
+              "RelativeDocumentMoniker": "BlazorApplication\\Repository\\LoginRepository.cs",
+              "ToolTip": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Repository\\LoginRepository.cs",
+              "RelativeToolTip": "BlazorApplication\\Repository\\LoginRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:45:10.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Services\\Interfaces\\ILoginService.cs",
+              "RelativeDocumentMoniker": "BlazorApplication\\Services\\Interfaces\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Services\\Interfaces\\ILoginService.cs",
+              "RelativeToolTip": "BlazorApplication\\Services\\Interfaces\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:44:26.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SignUpService.cs",
+              "DocumentMoniker": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Services\\SignUpService.cs",
+              "RelativeDocumentMoniker": "BlazorApplication\\Services\\SignUpService.cs",
+              "ToolTip": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Services\\SignUpService.cs",
+              "RelativeToolTip": "BlazorApplication\\Services\\SignUpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:41:16.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "BlazorApplication\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Services\\LoginService.cs",
+              "RelativeToolTip": "BlazorApplication\\Services\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:40:36.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "BlazorApplication\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "BlazorApplication\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:31:21.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignUpModel.cs",
+              "DocumentMoniker": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Model\\SignUpModel.cs",
+              "RelativeDocumentMoniker": "BlazorApplication\\Model\\SignUpModel.cs",
+              "ToolTip": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Model\\SignUpModel.cs",
+              "RelativeToolTip": "BlazorApplication\\Model\\SignUpModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:28:59.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUp.razor",
+              "DocumentMoniker": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Components\\Pages\\SignUp.razor",
+              "RelativeDocumentMoniker": "BlazorApplication\\Components\\Pages\\SignUp.razor",
+              "ToolTip": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Components\\Pages\\SignUp.razor",
+              "RelativeToolTip": "BlazorApplication\\Components\\Pages\\SignUp.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T06:26:09.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "BlazorApplication\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Components\\Routes.razor",
+              "RelativeToolTip": "BlazorApplication\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T06:26:01.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Model\\LoginModel.cs",
+              "RelativeDocumentMoniker": "BlazorApplication\\Model\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\kugow\\source\\repos\\BlazorApplication\\BlazorApplication\\Model\\LoginModel.cs",
+              "RelativeToolTip": "BlazorApplication\\Model\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:20:57.744Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
