@@ -20,8 +20,8 @@ namespace BlazorApplication.Services
         public async Task<bool> LoginUserAsync(LoginModel loginData)
         {
             var userEntity = mapper.Map<UserEntity>(loginData);
-			// Logic to validate the input or check for existing users can be added here
-			return await _loginRepository.LoginUserAsync(userEntity);
+            // Convert PhoneNumber from long to string
+            return await _loginRepository.LoginUserAsync(userEntity.PhoneNumber, userEntity.Password);
         }
         public async Task<bool> ResetPasswordAsync(SignUpModel signupData)
         {

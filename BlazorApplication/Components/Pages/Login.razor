@@ -20,7 +20,7 @@
 <p>@ViewModel.StatusMessage</p> *@
 
 <!-- LoginView.razor -->
-@page "/"
+@page "/Login"
 @using BlazorApplication.ViewModel
 @inject LoginViewModel ViewModel
 @rendermode InteractiveServer
@@ -47,8 +47,7 @@
     <!-- Forgot Password Link -->
     <a @onclick="ToggleForgotPasswordForm">Forgot Password?</a>
 }
-
-@if (showForgotPasswordForm)
+else
 {
     <div class="forgot-password-section">
         <h4>Forgot Password</h4>

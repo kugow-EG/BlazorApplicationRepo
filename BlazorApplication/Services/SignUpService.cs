@@ -20,8 +20,9 @@ namespace BlazorApplication.Services
         public async Task<bool> RegisterUserAsync(SignUpModel signupData)
         {
 			var userEntity = mapper.Map<UserEntity>(signupData);
-			// Logic to validate the input or check for existing users can be added here
-			return await _signUpRepository.CreateUserAsync(userEntity);
+            // Logic to validate the input or check for existing users can be added here
+            var sts = await _signUpRepository.CreateUserAsync(userEntity);
+            return sts;
         }
 
     }

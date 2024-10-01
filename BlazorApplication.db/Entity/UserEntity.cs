@@ -1,5 +1,7 @@
 ﻿//using Microsoft.AspNet.Identity.EntityFramework;//using Microsoft.AspNetCore.Identity;
 //using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -9,8 +11,8 @@ using System.Threading.Tasks;
 
 namespace BlazorApplication.Data.Entity
 {
-	 public class UserEntity
-	 {
+	 public class UserEntity : IdentityUser<int>
+     {
 		[Key]
 		public int Userid { get; set; }
 		public string Name { get; set; }

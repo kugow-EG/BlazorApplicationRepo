@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection.Emit;
 using BlazorApplication.Data.Entity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace BlazorApplication.Data.Data
 {
-	public class BlazorDBContext : DbContext
-	{
-		public DbSet<UserEntity> UserEntity { get; set; }
-
-		public BlazorDBContext(DbContextOptions<BlazorDBContext> options) : base(options)
+	public class DBContext:IdentityDbContext<UserEntity, IdentityRole<int>,int>
+	{ 
+		public DBContext(DbContextOptions<DBContext> options) : base(options)
 		{
 		}
 

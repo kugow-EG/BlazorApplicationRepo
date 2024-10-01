@@ -1,5 +1,5 @@
 ﻿<!-- Views/SignupView.razor -->
-@page "/Signup"
+@page "/"
 @using BlazorApplication.ViewModel
 @inject SignUpViewModel ViewModel
 @rendermode InteractiveServer
@@ -17,7 +17,7 @@
     <input type="number" @bind="ViewModel.SignupData.PhoneNumber" />
 </div>
 <div>
-    <label>Password:</label>s
+    <label>Password:</label>
     <input type="password" @bind="ViewModel.SignupData.Password" />
 </div>
 <div>
@@ -26,11 +26,11 @@
 </div>
 
 <button @onclick="ViewModel.SignupAsync">Signup</button>
-<p>Already have an account?</p><button @onclick="ViewModel.SignupAsync">LogIn</button>@* change later *@
-@if (ViewModel.StatusMessage)
+<p>Already have an account?</p><button @onclick="ViewModel.LoginAsync">LogIn</button>@* change later *@
+@* @if (ViewModel.StatusMessage)
 {
     <Login/>
-}
+} *@
 
 
 @* <p>@ViewModel.StatusMessage</p> *@
