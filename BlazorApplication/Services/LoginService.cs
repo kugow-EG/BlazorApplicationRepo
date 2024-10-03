@@ -26,7 +26,7 @@ namespace BlazorApplication.Services
         public async Task<bool> ResetPasswordAsync(SignUpModel signupData)
         {
 			var userEntity = mapper.Map<UserEntity>(signupData);
-			return await _loginRepository.ResetPasswordAsync(userEntity);
+			return await _loginRepository.ResetPasswordAsync(userEntity.PhoneNumber, userEntity.Password);
         }
 
     }

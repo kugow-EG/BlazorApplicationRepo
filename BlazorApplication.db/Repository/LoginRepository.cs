@@ -1,7 +1,7 @@
 ﻿using BlazorApplication.Data.Data;
 using BlazorApplication.Data.Entity;
 using BlazorApplication.Repository.Interfaces;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlazorApplication.Repository
 {
@@ -14,16 +14,21 @@ namespace BlazorApplication.Repository
         }
         public async Task<bool> LoginUserAsync(long phoneNumber, string password)
         {
-            var user = await _context.Users.Select(u => u.PhoneNumber == phoneNumber || u.Password == password).FirstOrDefaultAsync();
+            var user = await _context.Users.Where(u => u.PhoneNumber == phoneNumber && u.Password == password).FirstOrDefaultAsync();
+
             if (user != null )
             {
                 return true;
             }
             return false;
         }
-        public async Task<bool> ResetPasswordAsync(UserEntity userEntity)
+        public async Task<bool> ResetPasswordAsync(long phoneNumber, string newPassword)
         {
-            // Logic to save the user data to the database can be added here
+            var userEntity = await _context.Users.FirstOrDefaultAsync(u => u.PhoneNumber == phoneNumber);
+            if (userEntity == null)
+                return false;
+            userEntity.Password = newPassword;
+            await _context.SaveChangesAsync();
             return true;
         }
     }
